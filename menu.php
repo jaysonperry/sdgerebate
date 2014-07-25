@@ -27,8 +27,8 @@ Do the following if you're using your customized build of modernizr (http://www.
 <!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<script src="js/respond.min.js"></script>
-<script src="js/mixpanel.min.js" type="text/javascript"></script>
+<script src="/js/respond.min.js"></script>
+<script src="/js/mixpanel.min.js" type="text/javascript"></script>
 <!-- end Mixpanel DO NOT ADD ANY CODE AFTER THIS SCRIPT -->
 </head>
 <body oncontextmenu="return false;">
@@ -87,10 +87,6 @@ Do the following if you're using your customized build of modernizr (http://www.
     mixpanel.track_links("#linkWallInsulation", "click Wall Insulation link", {
         "referrer": document.referrer
     });
-	
-	
-	
-	
 </script>
 </body>
 </html>

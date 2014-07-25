@@ -15,7 +15,6 @@
 <link href="/css/layout_details.css" rel="stylesheet" type="text/css">
 <link href="/css/global_styles.css" rel="stylesheet" type="text/css" media="all">
 <script src="/jquery/external/jquery/jquery.js"></script>
-<script src="/jquery/jquery-ui.min.js"></script>
 <script src="/jquery/carhartl-jquery-cookie-92b7715/jquery.cookie.js"></script>
 <!-- 
 To learn more about the conditional comments around the html tags at the top of the file:
@@ -53,22 +52,16 @@ Do the following if you're using your customized build of modernizr (http://www.
       <p class="slogon-footer">Smart Choices Made Easy</p>
     </div>
 </div>
-<script type="text/javascript">
-	// MixPanel Call Tracker
-  mixpanel.track_links("linkStartNow", "click Start Now link", {
-    "referrer": document.referrer
-  });
+  <script type="text/javascript">
+    mixpanel.track_links("#linkStartNow", "click Start Now link", {
+        "referrer": document.referrer
+    });
+		
+		//Delete cookie by passing null as value:
+		$.removeCookie("mp_1555a7501521c60294055d357a9d11be_mixpanel", {path: "/", domain: "sdgerebates.com"}); // successfully deleted
 
-	// jQuery.cookie call
-	function update_visit_count() {
-		// Get the old visit count, or 0 if this is his first time
-		var visits = $.cookie("visits") || 0;
-		// Add 1 to it
-		visits++;
-		// Save the updated cookie
-		$.cookie("visits", visits, {expires: 360});
-	}
-</script>
+
+  </script>
 </body>
 </html>
 
