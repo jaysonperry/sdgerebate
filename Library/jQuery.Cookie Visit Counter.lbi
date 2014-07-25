@@ -1,0 +1,11 @@
+
+
+	// jQuery.cookie call
+	function update_visit_count() {
+		// Get the old visit count, or 0 if this is his first time
+		var visits = $.cookie("visits") || 0;
+		// Add 1 to it
+		visits++;
+		// Save the updated cookie
+		$.cookie("visits", visits, {expires: 360});
+	}
