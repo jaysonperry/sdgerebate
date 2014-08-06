@@ -13,7 +13,7 @@
 <link href="/css/layout_details.css" rel="stylesheet" type="text/css">
 <link href="/css/global_styles.css" rel="stylesheet" type="text/css" media="all">
 
-
+<script src="/js/timeout-medium.js"></script>
 <!-- 
 To learn more about the conditional comments around the html tags at the top of the file:
 paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
@@ -33,7 +33,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 <div class="gridContainer clearfix">
   <div id="outerWrapper" class="fit-screen">
     <div id="header">
-      <h1 class="app-title">Home Energy-Savings Center</h1>
+      <h1 class="app-title">Home Savings Center</h1>
       <!--<div class="branding pull-right">
    	  	<img src="/images/sdge-logo-header.png" alt="San Diego Gas and Electric Company Logo Image">
       </div>
@@ -41,7 +41,7 @@ Do the following if you're using your customized build of modernizr (http://www.
     </div>
     <div id="mainContent" class="detail-main-content">
       <h1>Lighting</h1>
-      <h2>SDG&amp;E<sup>&reg;</sup> offers special promotional pricing on select Energy Efficient CFL and LED lighting products.
+      <h2>SDG&amp;E<sup>&reg;</sup> offers <span class="black-font-weight">special promotional pricing</span> on select Energy Efficient CFL and LED lighting products.
 All rebated LED products are high CRI<span class="footnote-charm">*</span> of +90.</h2>
       <ul class="list-ul list-style-none rebate-features">
         <li>
@@ -69,7 +69,7 @@ All rebated LED products are high CRI<span class="footnote-charm">*</span> of +9
   </div>
     <div id="footer" class="site-footer">
       <div class="rule-horizontal-bullets">&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;</div>
-      <p class="slogon-footer">Smart Choices Made Easy</p>
+      <!--<p class="slogon-footer">Save money, energy, and resources</p>-->
     </div>
 </div>
 

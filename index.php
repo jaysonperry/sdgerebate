@@ -49,7 +49,7 @@ Do the following if you're using your customized build of modernizr (http://www.
   </div>
     <div id="footer" class="site-footer">
       <div class="rule-horizontal-bullets">&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;</div>
-      <p class="slogon-footer">Smart Choices Made Easy</p>
+      <!--<p class="slogon-footer">Save money, energy, and resources</p>-->
     </div>
 </div>
   <script type="text/javascript">

@@ -13,7 +13,7 @@
 <link href="/css/layout_details.css" rel="stylesheet" type="text/css">
 <link href="/css/global_styles.css" rel="stylesheet" type="text/css" media="all">
 
-
+<script src="/js/timeout-medium.js"></script>
 <!-- 
 To learn more about the conditional comments around the html tags at the top of the file:
 paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
@@ -33,19 +33,18 @@ Do the following if you're using your customized build of modernizr (http://www.
 <div class="gridContainer clearfix">
   <div id="outerWrapper" class="fit-screen">
     <div id="header">
-      <h1 class="app-title">Home Energy-Savings Center</h1>
+      <h1 class="app-title">Home Savings Center</h1>
     </div>
     <div id="mainContent" class="detail-main-content water-heater-space">
       <h1>Water Heaters</h1>
-      <h2>SDG&amp;E<sup>&reg;</sup> offers a $100 rebate on select Water Heaters.
-</h2>
-      <h3>Natural Gas Water Heaters</h3>
+      <h2>SDG&amp;E<sup>&reg;</sup> offers a <span class="black-font-weight">$100 rebate</span> on select water weaters. </h2>
+      <h3>Natural gas water heaters</h3>
       <ul class="list-ul list-style-none list-small-text">
         <li>Energy Factor (EF) of 0.67 or greater to qualify for the $100 rebate.</li>
         <li>Limited to natural gas storage water heaters that are 30 gallons or greater.</li>
         <li>If replacing an existing unit, the existing unit must be natural gas.</li>
       </ul> 
-      <h3>Electric Water Heaters</h3>
+      <h3>Electric water heaters</h3>
     <ul class="list-ul list-style-none list-small-text pull-left max-width-800">
       <li>Energy Factor (EF) of 0.91 or greater, depending on the gallon size (<em>see right</em>).</li>
       <li>Limited to electric storage water heaters that are 30 gallons or greater.</li>
@@ -65,7 +64,7 @@ Do the following if you're using your customized build of modernizr (http://www.
     <div id="sidebarRight">
     	<div class="text-box-1">
         	<h3>Field Guide</h3>
-          <img class="img-center drop-shadow-object" src="/images/cling-artwork-pending.png" alt="Placeholder">
+          <img class="img-center drop-shadow-object" src="/images/cling-water-heaters.png" alt="Placeholder">
           <p class="field-guide-text">Look for <strong><em>this sticker</em></strong> identifying <q>&ldquo;<em>qualifying water heaters</em>&rdquo;</q>.</p>
             
         </div>
@@ -76,8 +75,7 @@ Do the following if you're using your customized build of modernizr (http://www.
   </div>
     <div id="footer" class="site-footer">
       <div class="rule-horizontal-bullets">&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;</div>
-      <p class="slogon-footer">Smart Choices Made Easy</p>
-    </div>
+      <!--<p class="slogon-footer">Save money, energy, and resources</p>-->
 </div>
 
 </body>

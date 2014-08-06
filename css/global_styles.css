@@ -28,15 +28,15 @@ html, body {
 }
 
 .app-title {
-	font-size: 72px;
-	text-align: center;
-	color:  rgba(0,70,147,1);
-	line-height: 1em;
-	padding-bottom: 18px;
-	border-bottom: 2px solid rgba(0,70,147,1);
-	background-image: url(/images/sdge-logo-header.png);
-	background-repeat: no-repeat;
-	background-position: top right;
+  font-size: 72px;
+  text-align: center;
+  color: rgba(0,70,147,1);
+  line-height: 1em;
+  padding-bottom: 18px;
+  background-image: url(/images/sdge-logo-header.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  font-family: InterstateBlack;
 }
 
 .rule-horizontal-bullets {
@@ -54,7 +54,7 @@ html, body {
 	font-size: 36px;
 	color: rgba(0,70,147,1);
 	font-style: italic;
-	letter-spacing: .1875em;
+	letter-spacing: 0	em;
 	margin: 0px;
 	padding: 0px;
 	}
@@ -104,6 +104,7 @@ html, body {
 }
 
 .detail-main-content h1 {
+  margin-left: 32px;
 	color: rgba(0,70,147,1);
 	font-size: 64px;
 }
@@ -116,7 +117,7 @@ html, body {
   margin-left: 48px;
   margin-bottom: 0;
   font-size: 28px;
-  font-style:italic;
+  font-style: normal;
 }
 
 .detail-main-content h3.img-head-caption {
@@ -335,6 +336,7 @@ a:active.btn {
 	font-family: InterstateBlack;
 	text-align: center !important;
 	font-size: 188px;
+  letter-spacing: 0em;
 	margin: 128px auto 0 auto;
 	padding: 0;
 	line-height: 1;
@@ -350,11 +352,14 @@ a:active.btn {
 .footnote-charm { color: rgba(0,70,147,1); }
 
 .list-ul {
-  list-style: disc;
-  list-style-position: inside;
-  margin-left: 32px;
+  list-style: disc outside none; 
+  margin-left: 0;
+  padding-left: 32px;
 }
 
+.list-ul li {
+    padding-left: 1em;
+}
 .list-0l {
 }
 
@@ -405,3 +410,5 @@ a:active.btn {
 
 
 .black-font-weight { font-family: InterstateBlack; }
+
+.bold { font-weight: bold; }
