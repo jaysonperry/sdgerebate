@@ -41,8 +41,8 @@ Do the following if you're using your customized build of modernizr (http://www.
     </div>
     <div id="mainContent" class="detail-main-content">
       <h1>Lighting</h1>
-      <h2>SDG&amp;E<sup>&reg;</sup> offers <span class="black-font-weight">special promotional pricing</span> on select Energy Efficient CFL and LED lighting products.
-All rebated LED products are high CRI<span class="footnote-charm">*</span> of +90.</h2>
+      <h2 class="savings-amount">Reduced Pricing made possible by SDG&amp;E<sup>&reg;</sup>.</h2>
+      <h2>on select energy-efficient  lighting products.   All reduced price LED products are high CRI<span class="footnote-charm">*</span> of +90.</h2>
       <ul class="list-ul list-style-none rebate-features">
         <li>
         	The Color Rendering Index (CRI) is a scale from 0 to 100.
@@ -59,7 +59,7 @@ All rebated LED products are high CRI<span class="footnote-charm">*</span> of +9
     	<div class="text-box-1">
           <h3>Field Guide</h3>
           <img class="drop-shadow-object img-center" src="/images/Lighting-sticker_2014.png" alt="Light Bulb Shelf Sticker">
-					<p class="field-guide-text">Look for <strong>this sticker</strong> identifying <q>&ldquo;<em>qualifying light bulbs</em>&rdquo;</q> on the lighting aisle.</p>
+					<p class="field-guide-text">Look for <strong>this label</strong> identifying <q>&ldquo;<em>qualifying light bulbs</em>&rdquo;</q> on the lighting aisle.</p>
             
         </div>
         <div class="sidebar-btn-wrapper">

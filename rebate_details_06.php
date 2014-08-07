@@ -41,12 +41,14 @@ Do the following if you're using your customized build of modernizr (http://www.
     </div>
     <div id="mainContent" class="detail-main-content">
       <h1>Wall Insulation</h1>
-      <h2>SDG&amp;E<sup>&reg;</sup> offers a <span class="black-font-weight">$0.15/square foot rebate</span> on wall insulation. </h2>
+      <h2 class="savings-amount">Save $0.15/square foot</h2>
+      <h2>on R-13 or higher wall insulation. Rebate made possible by SDG&amp;E<sup>&reg;</sup>.</h2>
+      <h2>Wall insulation is eligible for a rebate as long as existing walls are un-insulated and are between conditioned living area and unconditioned area. </h2>
       <ul class="list-ul list-style-none list-regular">
-        <li>Wall insulation is eligible for a rebate as long as existing walls are un-insulated and are between conditioned living area and unconditioned area. </li>
         <li>Garages and other non-living areas do not qualify.</li>
         <li>The installed insulation must achieve a minimum of <strong><em>R-13</em></strong>.</li>
         <li>Floor and ceiling insulation do not qualify for a rebate.</li>
+        <li>Apply online at www.sdge.com/rebates. </li>
       </ul>
     </div>
     <div id="sidebarRight">

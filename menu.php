@@ -46,7 +46,7 @@ Do the following if you're using your customized build of modernizr (http://www.
 
       <table>
           <caption>
-            Rebated Products at The Home Depot
+            Rebated Items Available at Home Depot
           </caption>
         <tr>
           <td><a id="linkLighting" class="btn btn-md" href="/rebate_details_01.php">Lighting</a></td>

@@ -14,7 +14,7 @@ html, body {
 .fit-screen {
   min-height: 900px;
   /* equal to footer height */
-  margin-bottom: -100px; 
+  margin-bottom: -50px; 
 }
 .fit-screen:after {
   content: "";
@@ -22,7 +22,7 @@ html, body {
 }
 .site-footer, .fit-screen:after {
   /* .push must be the same height as footer */
-  height: 100px; 
+  height: 50px; 
 }
 .site-footer {
 }
@@ -60,7 +60,10 @@ html, body {
 	}
 
 .branding {
-	float: left;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  z-index: 1001;
 	max-width: 256px;
 }
 
@@ -111,6 +114,8 @@ html, body {
 .detail-main-content h2 {
   margin-left: 32px;
   font-size: 32px;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 .detail-main-content h3 {
@@ -369,6 +374,18 @@ a:active.btn {
 
 .rebate-features {
   font-size: 30px;
+  margin-top: 16px;
+}
+
+.margin-top-md {
+  margin-top: 18px;
+}
+
+.savings-amount {
+  font-family: InterstateBlack, "Arial Black", Gadget, sans-serif;
+  font-size: 40px !important;
+  margin-bottom: -4px;
+  
 }
 
 .footnote {

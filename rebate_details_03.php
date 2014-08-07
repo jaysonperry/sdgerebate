@@ -41,13 +41,14 @@ Do the following if you're using your customized build of modernizr (http://www.
     </div>
     <div id="mainContent" class="detail-main-content">
       <h1>Clothes Washers</h1>
-      <h2>SDG&amp;E<sup>&reg;</sup> offers a <span class="black-font-weight">$50 rebate</span> on qualifying CEE tier 3 clothes washers.</h2>
+      <h2 class="savings-amount">Save $50</h2>
+      <h2>on qualifying CEE Tier 3 clothes washers. Instant rebate made possible by SDG&amp;E<sup>&reg;</sup>.</h2>
       <ul class="list-ul list-refrigerator-labels">
         <li class="no-content">
           <h3>Standard washers use 9,188 Gallons/year*</h3>
           <img class="img-center" src="/images/bottle-water-5-gallon-thrice.png" alt="Crowd of Water Bottles"></li>
         <li class="no-content">
-          <h3>CEE tier 3 washers use 2,902 Gallons/year*</h3>
+          <h3>CEE Tier 3 washers use 2,902 Gallons/year*</h3>
           <img class="img-center"  src="/images/bottle-water-5-gallon.png" alt="One Hero Bottle of Water"></li>
         <li class="footnote footnote-sm no-content">* Actual water use varies by washer capacity and frequency of use.</li>
       </ul>
@@ -56,7 +57,7 @@ Do the following if you're using your customized build of modernizr (http://www.
     	<div class="text-box-1">
         	<h3>Field Guide</h3>
           <img class="img-center" src="/images/sdge_RebateCling_50dollar.png" alt="Placeholder">
-          <p class="field-guide-text">Look for <strong><em>this sticker</em></strong> identifying <q>&ldquo;<em>qualifying Clothes Washers</em>&rdquo;</q>.</p>
+          <p class="field-guide-text">Look for <strong><em>this label</em></strong> identifying <q>&ldquo;<em>qualifying Clothes Washers</em>&rdquo;</q>.</p>
             
         </div>
         <div class="sidebar-btn-wrapper">

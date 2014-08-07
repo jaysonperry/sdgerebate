@@ -245,9 +245,10 @@ a:active {
 .emphesis-sm {
   font-size: .61.8em;
 }
-small, sub, sup { font-size: .76em }
+small, sub, sup { font-size: .628em }
 sub             { vertical-align: sub; line-height: 1; }
 sup             { vertical-align: super; line-height: 1; }
+sup 						{ vertical-align: top; position: relative; top: -.25em; }
 .drop-shadow-object { box-shadow: rgba(0,0,0,.50) 4px 4px 6px}
 
 .img-center {
@@ -266,7 +267,6 @@ sup             { vertical-align: super; line-height: 1; }
 .max-width-800 {
   max-width: 800px !important;
 }
-
 
 
 /* ==|== non-semantic helper classes ========================================

@@ -36,6 +36,11 @@ Do the following if you're using your customized build of modernizr (http://www.
 <body oncontextmenu="return false;">
 <div class="gridContainer clearfix">
   <div id="outerWrapper" class="fit-screen">
+    <div>
+      <div class="branding">
+   	  	<img src="/images/sdge-logo-header.png" alt="San Diego Gas and Electric Company Logo Image">
+      </div>
+    </div>
     <div id="lobbyContent">
       <div class="main-content lobby-main-content">
         <h1>Find Rebates</h1>

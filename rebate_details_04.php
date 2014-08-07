@@ -41,8 +41,10 @@ Do the following if you're using your customized build of modernizr (http://www.
     </div>
     <div id="mainContent" class="detail-main-content">
       <h1>Room Air Conditioning</h1>
-      <h2>SDG&amp;E<sup>&reg;</sup> offers a <span class="black-font-weight">$50 rebate</span> on ENERGY STAR<sup>&reg;</sup> qualifying room air conditioners.</h2>
-      <h3>ENERGY STAR<sup>&reg;</sup> certified room air conditioners:</h3>
+      
+      <h2 class="savings-amount">Save $50</h2>
+      <h2>on qualifying room air conditioners. Instant rebate made possible by SDG&amp;E<sup>&reg;</sup>.</h2>
+      <h2>ENERGY STAR<sup>&reg;</sup> certified room air conditioners:</h2>
       <ul class="list-ul list-style-none list-regular">
         <li>Use about 15% less energy than conventional models, which could mean a savings of about $90 over the lifetime of the unit, on average.</li>
         <li>Often include timers for better temperature control, allowing you to use the minimum amount of energy you need to cool your room.</li>
@@ -52,7 +54,7 @@ Do the following if you're using your customized build of modernizr (http://www.
     	<div class="text-box-1">
         	<h3>Field Guide</h3>
           <img class="img-center drop-shadow-object" src="/images/cling-water-air-conditioners.png" alt="Room Air Conditioner Cling">
-<p class="field-guide-text">Look for <strong><em>this sticker</em></strong> identifying <q>&ldquo;<em>qualifying room air conditioners</em>&rdquo;</q>.</p>
+<p class="field-guide-text">Look for <strong><em>this label</em></strong> identifying <q>&ldquo;<em>qualifying room air conditioners</em>&rdquo;</q>.</p>
             
         </div>
         <div class="sidebar-btn-wrapper">

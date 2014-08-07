@@ -41,7 +41,8 @@ Do the following if you're using your customized build of modernizr (http://www.
     </div>
     <div id="mainContent" class="detail-main-content">
       <h1>Refrigerators</h1>
-      <h2>SDG&amp;E<sup>&reg;</sup> offers a <span class="black-font-weight">$50 rebate</span> on qualifying CEE super efficient refrigerators.</h2>
+      <h2 class="savings-amount">Save $50</h2>
+      <h2>on qualifying CEE super efficient refrigerators. Instant rebate made possible by  SDG&amp;E<sup>&reg;</sup>.</h2>
       <h3>New refrigerators use about 50% less energy than ones from just 10-20 years ago.</h3>
       <ul class="list-ul list-style-none list-refrigerator-labels">
         <li class="no-content">
@@ -56,7 +57,7 @@ Do the following if you're using your customized build of modernizr (http://www.
     	<div class="text-box-1">
         	<h3>Field Guide</h3>
           <img class="img-center" src="/images/sdge_RebateCling_50dollar.png" alt="Placeholder">
-<p class="field-guide-text">Look for <strong><em>this sticker</em></strong> identifying <q>&ldquo;<em>qualifying refrigerators</em>&rdquo;</q>.</p>
+<p class="field-guide-text">Look for <strong><em>this label</em></strong> identifying <q>&ldquo;<em>qualifying refrigerators</em>&rdquo;</q>.</p>
         </div>
         <div class="sidebar-btn-wrapper">
         	<a class="btn btn-sm" href="/menu.php">back</a>

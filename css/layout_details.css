@@ -93,6 +93,21 @@ img, object, embed, video {
 	width: 100%;
 	display: block;
 }
+#waterHeaterText {
+	clear: none;
+	float: left;
+	margin-left: 3.4482%;
+	width: 100%;
+	display: block;
+}
+#waterHeaterImageWrapper {
+	clear: none;
+	float: left;
+	margin-left: 3.4482%;
+	width: 100%;
+	display: block;
+}
+}
 
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
@@ -153,6 +168,20 @@ img, object, embed, video {
 	display: block;
 }
 #lobbyContent {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#waterHeaterText {
+	clear: none;
+	float: left;
+	margin-left: 2.5641%;
+	width: 100%;
+	display: block;
+}
+#waterHeaterImageWrapper {
 	clear: none;
 	float: left;
 	margin-left: 2.5641%;
@@ -225,6 +254,20 @@ img, object, embed, video {
 	float: left;
 	margin-left: 0;
 	width: 100%;
+	display: block;
+}
+#waterHeaterText {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 66.1016%;
+	display: block;
+}
+#waterHeaterImageWrapper {
+	clear: none;
+	float: left;
+	margin-left: 10.1694%;
+	width: 23.7288%;
 	display: block;
 }
 }

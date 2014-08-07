@@ -13,7 +13,7 @@
 <link href="/css/layout_details.css" rel="stylesheet" type="text/css">
 <link href="/css/global_styles.css" rel="stylesheet" type="text/css" media="all">
 
-<script src="/js/timeout-medium.js"></script>
+<script src="/js/timeout-long.js"></script>
 <!-- 
 To learn more about the conditional comments around the html tags at the top of the file:
 paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
@@ -36,36 +36,22 @@ Do the following if you're using your customized build of modernizr (http://www.
       <h1 class="app-title">Home Savings Center</h1>
     </div>
     <div id="mainContent" class="detail-main-content water-heater-space">
-      <h1>Water Heaters</h1>
-      <h2>SDG&amp;E<sup>&reg;</sup> offers a <span class="black-font-weight">$100 rebate</span> on select water weaters. </h2>
-      <h3>Natural gas water heaters</h3>
-      <ul class="list-ul list-style-none list-small-text">
-        <li>Energy Factor (EF) of 0.67 or greater to qualify for the $100 rebate.</li>
-        <li>Limited to natural gas storage water heaters that are 30 gallons or greater.</li>
-        <li>If replacing an existing unit, the existing unit must be natural gas.</li>
-      </ul> 
-      <h3>Electric water heaters</h3>
-    <ul class="list-ul list-style-none list-small-text pull-left max-width-800">
-      <li>Energy Factor (EF) of 0.91 or greater, depending on the gallon size (<em>see right</em>).</li>
-      <li>Limited to electric storage water heaters that are 30 gallons or greater.</li>
-      <li>If replacing an existing unit, the existing unit must be electric.</li>
-    </ul>
-    <div id="energyFactor" class="pull-right">
-      <h4>Energy Factor:</h4>
-      <ul class="list-ul list-style-none">
-        <li class="no-content">0.95 or greater for 30 gallons</li>
-        <li class="no-content">0.94 or greater for 40 gallons</li>
-        <li class="no-content">0.93 or greater for 50 gallons</li>
-        <li class="no-content">0.91 or greater for 60 gallons or more</li>
-      </ul>
-    </div>
-    <div class="pull-stop"></div>
+      <div id="waterHeaterText">
+        <h1>Water Heaters</h1>
+        <h2 class="savings-amount">Save $100</h2>
+        <h2>on select water heaters. Instant rebate made possible by SDG&amp;E<sup>&reg;</sup>.</h2>
+        <h2 class="margin-top-md">ENERGY STAR<sup>&reg;</sup> certified gas storage water heaters can save about $520 over the lifetime of the water heater.</h2>
+      </div>
+      <div id="waterHeaterImageWrapper"><img src="/images/water-heater-web.png" alt="Hot Water Heater Tank Gas "></div>
+      <h1>&nbsp;</h1>
+      
+      
     </div>
     <div id="sidebarRight">
     	<div class="text-box-1">
         	<h3>Field Guide</h3>
           <img class="img-center drop-shadow-object" src="/images/cling-water-heaters.png" alt="Placeholder">
-          <p class="field-guide-text">Look for <strong><em>this sticker</em></strong> identifying <q>&ldquo;<em>qualifying water heaters</em>&rdquo;</q>.</p>
+          <p class="field-guide-text">Look for <strong><em>this label</em></strong> identifying <q>&ldquo;<em>qualifying water heaters</em>&rdquo;</q>.</p>
             
         </div>
         <div class="sidebar-btn-wrapper">
